@@ -1,0 +1,115 @@
+html{
+   height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(#523672,#8F2C3E); */
+    background-image: url(img/music-408994_1280.jpg);
+    background-size: cover;
+    /* background-position: 100%; */
+
+}
+
+.top{
+    width: 523px;
+    height: 123px;
+    background-image: url(img/gif.gif);
+    /* background: rgb(0, 0, 0); */
+    position: absolute;
+    top: -43%;
+    border-radius: 8px 8px 0px 0px;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.box {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.piano{
+    display: flex;
+    position: relative;
+    margin-left: 4px;
+    top: 54px;
+}
+
+.sada-key{
+    width: 56px;
+    height: 165px;
+    background-color: #cfbfa1ad;
+    border: 2px solid black;
+    border-radius: 0 0 20px 20px;
+    margin-left: -4px;
+    outline: none;
+}
+
+.sada-key.active{
+    background-color: #C0C0C0;
+}
+
+.kala-key{
+    position: absolute;
+    width: 29px;
+    height: 97px;
+    background-image: linear-gradient(#000,#2D2B2B);
+    border-radius: 0 0 20px 20px;
+    border: 3px solid black;
+    outline: none;
+}
+
+.kala-key.active{
+    background-image: linear-gradient(black ,#101010);
+}
+
+.Db4-key {
+    left: 87px;
+}
+
+.Eb4-key{
+    left: 34px;
+}
+
+.Gb4-key{
+    left: 190px;
+}
+
+.Ab4-key{
+    left: 243px;
+}
+
+.Bb4-key{
+    left: 295px;
+}
+
+.Db5-key{
+    left: 400px;
+}
+
+.Eb5-key{
+    left: 451px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
